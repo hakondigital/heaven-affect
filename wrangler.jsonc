@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "theheaveneffect",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  // Variables set in the Cloudflare dashboard survive deploys from the repo.
+  "keep_vars": true
+  // Once theheaveneffect.com.au's DNS is on Cloudflare, add:
+  // "routes": [
+  //   { "pattern": "theheaveneffect.com.au", "custom_domain": true },
+  //   { "pattern": "www.theheaveneffect.com.au", "custom_domain": true }
+  // ]
+}

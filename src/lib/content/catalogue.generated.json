@@ -1,0 +1,1462 @@
+{
+  "syncedAt": "2026-10-20T06:11:46.837Z",
+  "source": "public-json",
+  "products": [
+    {
+      "id": 15394878324948,
+      "handle": "deep-green-tracksuit-pants",
+      "title": "Deep Green Tracksuit Pants",
+      "type": "Tracksuit",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "Heavyweight 400 GSM fleece-lined fabric with a mid-to-high rise, shaped knees and tapered hems. Snowflake, stone and enzyme washed for a faded finish.",
+      "details": [],
+      "note": "",
+      "preorder": false,
+      "publishedAt": "2026-09-27T06:05:44-04:00",
+      "createdAt": "2026-09-26T22:12:31-04:00",
+      "price": 200,
+      "maxPrice": 200,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPantsMAIN.jpg?v=1790476133",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants.jpg?v=1790476091",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants03.jpg?v=1790476092",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants02.jpg?v=1790476091",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants09.jpg?v=1790547373",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackSETGreen_40ef1927-2c0c-4d4e-aeaa-344c5dfc429d.jpg?v=1790547383",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants04.jpg?v=1790476091",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants05.jpg?v=1790476091",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants06.jpg?v=1790476092",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants08.jpg?v=1790476092",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop09.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackPants07.jpg?v=1790476091",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 67584887718100,
+          "title": "S",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        },
+        {
+          "id": 67584887750868,
+          "title": "M",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        },
+        {
+          "id": 67584887783636,
+          "title": "L",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        },
+        {
+          "id": 67584887816404,
+          "title": "XL",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 15394877276372,
+      "handle": "deep-green-tracksuit-jacket",
+      "title": "Deep Green Tracksuit Jacket",
+      "type": "Tracksuit",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "Washed Zip-Up Hoodie: Heavyweight 400 GSM fleece-lined fabric with a relaxed fit, full zip, hood and kangaroo pockets. Distressed wash for a faded finish.",
+      "details": [],
+      "note": "",
+      "preorder": false,
+      "publishedAt": "2026-09-27T06:03:43-04:00",
+      "createdAt": "2026-09-26T22:10:38-04:00",
+      "price": 200,
+      "maxPrice": 200,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop.jpg?v=1790474946",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop02.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop03.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop04.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop05.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop06.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop08.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop09.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop010.jpg?v=1790474947",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/TrackieBlackTop011.jpg?v=1790474946",
+          "w": 1250,
+          "h": 1250,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 67584883228884,
+          "title": "S",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        },
+        {
+          "id": 67584883261652,
+          "title": "M",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        },
+        {
+          "id": 67584883294420,
+          "title": "L",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        },
+        {
+          "id": 67584883327188,
+          "title": "XL",
+          "available": true,
+          "price": 200,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9321576530132,
+      "handle": "xansoldiers-t-shirt",
+      "title": "Xansoldiers T-shirt",
+      "type": "T-Shirt",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "100% Cotton, 150gsm.",
+      "details": [],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-08-24T23:20:09-04:00",
+      "createdAt": "2026-08-24T23:14:57-04:00",
+      "price": 150,
+      "maxPrice": 150,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1873-removebg.png?v=1787627867",
+          "w": 1943,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Untitled_1_7.jpg?v=1787628298",
+          "w": 1200,
+          "h": 1200,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2158.jpg?v=1787627867",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2130.jpg?v=1787627867",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2134.jpg?v=1787627867",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2135.jpg?v=1787627867",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 48535116742868,
+          "title": "S",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48535116775636,
+          "title": "M",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48535116808404,
+          "title": "L",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48535116841172,
+          "title": "XL",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48535116873940,
+          "title": "XXL",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 9321566666964,
+      "handle": "40s-hood",
+      "title": "40s Hood",
+      "type": "HOOD",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "",
+      "details": [
+        {
+          "label": "Fit",
+          "value": "Relaxed"
+        },
+        {
+          "label": "Fabric",
+          "value": "Mid-heavy weight, 350 GSM 80% Cotton 20% Recycled Polyester anti-pill CVC fleece · Cotton facing on fleece"
+        },
+        {
+          "label": "Construction",
+          "value": "Pullover hood, drop shoulder, inset sleeves, kangaroo pocket, no drawcord, hem and sleeve 2x2 ribbing, self-fabric lined hood, preshrunk to minimise shrinkage"
+        }
+      ],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-08-24T23:20:08-04:00",
+      "createdAt": "2026-08-24T23:08:30-04:00",
+      "price": 270,
+      "maxPrice": 270,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Untitled_1_2.jpg?v=1787627506",
+          "w": 1200,
+          "h": 1200,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Untitled_1_5.jpg?v=1787627532",
+          "w": 1200,
+          "h": 1200,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2105.jpg?v=1787627593",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2120.jpg?v=1787627593",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2122_1.jpg?v=1787627593",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 48534935077076,
+          "title": "S",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534935109844,
+          "title": "M",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534935142612,
+          "title": "L",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534935175380,
+          "title": "XL",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534935208148,
+          "title": "XXL",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 9321547628756,
+      "handle": "80s-hood",
+      "title": "80s Hood",
+      "type": "HOOD",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "",
+      "details": [
+        {
+          "label": "Fit",
+          "value": "Relaxed"
+        },
+        {
+          "label": "Fabric",
+          "value": "Mid-heavy weight, 350 GSM 80% Cotton 20% Recycled Polyester anti-pill CVC fleece · Cotton facing on fleece"
+        },
+        {
+          "label": "Construction",
+          "value": "Pullover hood, drop shoulder, inset sleeves, kangaroo pocket, no drawcord, hem and sleeve 2x2 ribbing, self-fabric lined hood, preshrunk to minimise shrinkage"
+        }
+      ],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-08-24T23:20:07-04:00",
+      "createdAt": "2026-08-24T22:53:25-04:00",
+      "price": 270,
+      "maxPrice": 270,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Untitled_1.jpg?v=1787626859",
+          "w": 1200,
+          "h": 1200,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1952-removebg2.png?v=1787627037",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1956_f2574cfa-5474-40a0-be4e-67d7b56dfadb.jpg?v=1787627044",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2203.jpg?v=1787627075",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2198.jpg?v=1787627075",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2221.jpg?v=1787627075",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 48534902931668,
+          "title": "S",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534902964436,
+          "title": "M",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534902997204,
+          "title": "L",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534903029972,
+          "title": "XL",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 48534903062740,
+          "title": "XXL",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 9291733762260,
+      "handle": "mhc-x-the-x-viagra",
+      "title": "MHC X THE X VIAGRA",
+      "type": "T-Shirt",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "100% Cotton, 150gsm. Collab with The Milf Hunters Club.",
+      "details": [],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-08-06T15:48:27-04:00",
+      "createdAt": "2026-08-05T05:41:15-04:00",
+      "price": 150,
+      "maxPrice": 150,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/ViagraTee001.jpg?v=1785921911",
+          "w": 1100,
+          "h": 1100,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/ViagraTee002.jpg?v=1785921911",
+          "w": 1100,
+          "h": 1100,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/ViagraTee003.jpg?v=1785922723",
+          "w": 1100,
+          "h": 1100,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1347.jpg?v=1790255402",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1370.jpg?v=1790255402",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1380.jpg?v=1790255402",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1492.jpg?v=1790255416",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1317.jpg?v=1790255444",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1200.jpg?v=1790255471",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 48424463597780,
+          "title": "S",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48424463630548,
+          "title": "M",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48424463663316,
+          "title": "L",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48424463696084,
+          "title": "XL",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 48424463728852,
+          "title": "XXL",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 9282150858964,
+      "handle": "paranoia-hood",
+      "title": "Paranoia Hood",
+      "type": "HOOD",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "350 GSM MID-HEAVYWEIGHT HOOD. RELAXED FIT & DROP SHOULDER.",
+      "details": [],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-07-26T05:41:19-04:00",
+      "createdAt": "2026-07-26T05:41:17-04:00",
+      "price": 260,
+      "maxPrice": 260,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Paranoia0.jpg?v=1785058698",
+          "w": 1100,
+          "h": 1100,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Paranoia002.jpg?v=1785058698",
+          "w": 1100,
+          "h": 1100,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Paranoia003.jpg?v=1785058698",
+          "w": 1100,
+          "h": 1100,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 48361906274516,
+          "title": "S",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 48361906307284,
+          "title": "M",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 48361906340052,
+          "title": "L",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 48361906372820,
+          "title": "XL",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 48361906405588,
+          "title": "XXL",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 9258977132756,
+      "handle": "charlie-sheen-hood",
+      "title": "Charlie Sheen Hood",
+      "type": "",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "350 GSM MID-HEAVYWEIGHT HOOD. RELAXED FIT & DROP SHOULDER.",
+      "details": [],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-07-10T19:31:35-04:00",
+      "createdAt": "2026-07-10T19:26:32-04:00",
+      "price": 300,
+      "maxPrice": 300,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/CharlieSheenOut.jpg?v=1783725911",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/CharlieSheenIn.jpg?v=1783725911",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/CharlieSheenSleeve.jpg?v=1783725911",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/CharlieSheenSleeve02.jpg?v=1783725911",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/CharlieSheenStyle.jpg?v=1783725911",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/CharlieSheenStyle02.jpg?v=1783725911",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 48245585051860,
+          "title": "S",
+          "available": true,
+          "price": 300,
+          "compareAt": null
+        },
+        {
+          "id": 48245585084628,
+          "title": "M",
+          "available": true,
+          "price": 300,
+          "compareAt": null
+        },
+        {
+          "id": 48245585117396,
+          "title": "L",
+          "available": true,
+          "price": 300,
+          "compareAt": null
+        },
+        {
+          "id": 48245585150164,
+          "title": "XL",
+          "available": true,
+          "price": 300,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9167871639764,
+      "handle": "hunter-valley-hood",
+      "title": "Hunter Valley Hood",
+      "type": "",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "",
+      "details": [
+        {
+          "label": "Fit",
+          "value": "Relaxed"
+        },
+        {
+          "label": "Fabric",
+          "value": "Mid-heavy weight, 350 GSM 80% Cotton 20% Recycled Polyester anti-pill CVC fleece · Cotton facing on fleece"
+        },
+        {
+          "label": "Construction",
+          "value": "Pullover hood, drop shoulder, inset sleeves, kangaroo pocket, no drawcord, hem and sleeve 2x2 ribbing, self-fabric lined hood, preshrunk to minimise shrinkage"
+        }
+      ],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-05-13T04:28:17-04:00",
+      "createdAt": "2026-05-13T04:19:23-04:00",
+      "price": 270,
+      "maxPrice": 270,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/FTS-Pink.jpg?v=1778660283",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/FTS-Pink02.jpg?v=1778660283",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/FTS-Pink03.jpg?v=1778660284",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 47933339861204,
+          "title": "S",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 47933339893972,
+          "title": "M",
+          "available": false,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 47933339926740,
+          "title": "L",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        },
+        {
+          "id": 47933339959508,
+          "title": "XL",
+          "available": true,
+          "price": 270,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9167744303316,
+      "handle": "flip-the-script-t-shirt-black",
+      "title": "Flip The Script T-shirt - Black",
+      "type": "",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "100% Cotton, 150gsm.",
+      "details": [],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-05-13T04:27:48-04:00",
+      "createdAt": "2026-05-13T00:49:07-04:00",
+      "price": 150,
+      "maxPrice": 150,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/ScriptBlack.jpg?v=1778647739",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/ScriptBlack03.jpg?v=1778647739",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/ScriptBlack02.jpg?v=1778647739",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 47932650914004,
+          "title": "S",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 47932650946772,
+          "title": "M",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 47932650979540,
+          "title": "L",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 47932651012308,
+          "title": "XL",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9167738667220,
+      "handle": "drowsy-sticker-hood",
+      "title": "Drowsy Sticker Hood",
+      "type": "",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "",
+      "details": [
+        {
+          "label": "Fit",
+          "value": "Relaxed"
+        },
+        {
+          "label": "Fabric",
+          "value": "Mid-heavy weight, 350 GSM 80% Cotton 20% Recycled Polyester anti-pill CVC fleece · Cotton facing on fleece"
+        },
+        {
+          "label": "Construction",
+          "value": "Pullover hood, drop shoulder, inset sleeves, kangaroo pocket, no drawcord, hem and sleeve 2x2 ribbing, self-fabric lined hood, preshrunk to minimise shrinkage"
+        }
+      ],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-05-13T04:27:10-04:00",
+      "createdAt": "2026-05-13T00:34:15-04:00",
+      "price": 260,
+      "maxPrice": 260,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/DrowsyHood.jpg?v=1778646776",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/DrowsyHood03.jpg?v=1778646776",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/DrowsyHood02.jpg?v=1778646776",
+          "w": 1144,
+          "h": 1058,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 47932626141396,
+          "title": "S",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 47932626174164,
+          "title": "M",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 47932626206932,
+          "title": "L",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        },
+        {
+          "id": 47932626239700,
+          "title": "XL",
+          "available": true,
+          "price": 260,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9138612535508,
+      "handle": "flip-the-script-t-shirt",
+      "title": "Flip The Script T-Shirt",
+      "type": "T-Shirt",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "100% Cotton, 150gsm.",
+      "details": [],
+      "note": "",
+      "preorder": true,
+      "publishedAt": "2026-04-11T21:28:08-04:00",
+      "createdAt": "2026-04-10T19:48:53-04:00",
+      "price": 150,
+      "maxPrice": 150,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/FTSTee_e99b591c-5500-439f-a758-3e1e80c72eb5.jpg?v=1775865029",
+          "w": 1176,
+          "h": 1174,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/FTSTee03.jpg?v=1775865485",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A3699.jpg?v=1775865485",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A3703.jpg?v=1775865485",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A3689_1.jpg?v=1775865485",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/KNLK.jpg?v=1775865485",
+          "w": 1080,
+          "h": 1350,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/Untitled-2.jpg?v=1775865485",
+          "w": 1080,
+          "h": 1350,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 47782378242260,
+          "title": "M",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 47782378275028,
+          "title": "L",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        },
+        {
+          "id": 47782378307796,
+          "title": "XL",
+          "available": true,
+          "price": 150,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9129101721812,
+      "handle": "flip-the-script-hood",
+      "title": "Flip The Script Hood",
+      "type": "HOOD",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "",
+      "details": [
+        {
+          "label": "Fit",
+          "value": "Relaxed"
+        },
+        {
+          "label": "Fabric",
+          "value": "Mid-heavy weight, 350 GSM 80% Cotton 20% Recycled Polyester anti-pill CVC fleece · Cotton facing on fleece"
+        },
+        {
+          "label": "Construction",
+          "value": "Pullover hood, drop shoulder, inset sleeves, kangaroo pocket, no drawcord, hem and sleeve 2x2 ribbing, self-fabric lined hood, preshrunk to minimise shrinkage"
+        }
+      ],
+      "note": "Model is 5'11 wearing a XXL",
+      "preorder": true,
+      "publishedAt": "2026-03-30T05:29:45-04:00",
+      "createdAt": "2026-03-30T05:29:43-04:00",
+      "price": 280,
+      "maxPrice": 280,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/01Flip.jpg?v=1774922258",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1097.jpg?v=1774922258",
+          "w": 1200,
+          "h": 1500,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A3302.jpg?v=1775259994",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A3312_1.jpg?v=1775259994",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A3326.jpg?v=1775259994",
+          "w": 1365,
+          "h": 2048,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1052.jpg?v=1775259994",
+          "w": 4560,
+          "h": 3648,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1088.jpg?v=1775259994",
+          "w": 4560,
+          "h": 3648,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 47739474903252,
+          "title": "S",
+          "available": true,
+          "price": 280,
+          "compareAt": null
+        },
+        {
+          "id": 47739474936020,
+          "title": "M",
+          "available": true,
+          "price": 280,
+          "compareAt": null
+        },
+        {
+          "id": 47739474968788,
+          "title": "L",
+          "available": true,
+          "price": 280,
+          "compareAt": null
+        },
+        {
+          "id": 47739475001556,
+          "title": "XL",
+          "available": true,
+          "price": 280,
+          "compareAt": null
+        },
+        {
+          "id": 47854656749780,
+          "title": "XXL",
+          "available": true,
+          "price": 280,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 9129098543316,
+      "handle": "drowsy-sticker-crew-neck",
+      "title": "Drowsy Sticker Crew Neck",
+      "type": "Crew",
+      "vendor": "The Heaven Effect",
+      "available": true,
+      "summary": "",
+      "details": [
+        {
+          "label": "Fit",
+          "value": "Relaxed"
+        },
+        {
+          "label": "Fabric",
+          "value": "Mid weight, 320 GSM, 80% cotton 20% recycled polyester CVC fleece · Cotton facing on fleece"
+        },
+        {
+          "label": "Construction",
+          "value": "Pre-shrunk to minimise shrinkage, pullover crew, drop shoulder, crew neck, garment dyed, sleeve cuff ribbing"
+        }
+      ],
+      "note": "Model is 175cm wearing a Medium.",
+      "preorder": true,
+      "publishedAt": "2026-03-30T05:26:28-04:00",
+      "createdAt": "2026-03-30T05:26:27-04:00",
+      "price": 240,
+      "maxPrice": 240,
+      "compareAt": null,
+      "currency": "AUD",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/02Flip.jpg?v=1774922294",
+          "w": 950,
+          "h": 950,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2731.jpg?v=1775260335",
+          "w": 1080,
+          "h": 1620,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A27511.jpg?v=1775260404",
+          "w": 1080,
+          "h": 1620,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A2765.jpg?v=1775260410",
+          "w": 1080,
+          "h": 1620,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A27601.jpg?v=1775260410",
+          "w": 1080,
+          "h": 1620,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1015.jpg?v=1775260410",
+          "w": 4560,
+          "h": 3648,
+          "alt": ""
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0637/4994/7604/files/1J9A1017.jpg?v=1775260410",
+          "w": 4560,
+          "h": 3648,
+          "alt": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": 47739476443348,
+          "title": "S",
+          "available": true,
+          "price": 240,
+          "compareAt": null
+        },
+        {
+          "id": 47739476476116,
+          "title": "M",
+          "available": true,
+          "price": 240,
+          "compareAt": null
+        },
+        {
+          "id": 47739476508884,
+          "title": "L",
+          "available": true,
+          "price": 240,
+          "compareAt": null
+        },
+        {
+          "id": 47739476541652,
+          "title": "XL",
+          "available": true,
+          "price": 240,
+          "compareAt": null
+        },
+        {
+          "id": 47854650097876,
+          "title": "XXL",
+          "available": true,
+          "price": 240,
+          "compareAt": null
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  ],
+  "collections": {
+    "tracksuit": [
+      "deep-green-tracksuit-pants",
+      "deep-green-tracksuit-jacket"
+    ],
+    "pain-pack": [
+      "hunter-valley-hood",
+      "flip-the-script-hood",
+      "flip-the-script-t-shirt",
+      "drowsy-sticker-crew-neck",
+      "xansoldiers-t-shirt",
+      "flip-the-script-t-shirt-black",
+      "40s-hood",
+      "80s-hood",
+      "drowsy-sticker-hood"
+    ],
+    "mhc-x-the": [
+      "mhc-x-the-x-viagra"
+    ],
+    "charlie-sheen": [
+      "charlie-sheen-hood",
+      "paranoia-hood"
+    ]
+  }
+}

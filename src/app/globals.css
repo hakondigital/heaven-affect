@@ -1,0 +1,498 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   THE HEAVEN EFFECT — design tokens
+
+   Cartons on a shelf. The ground is the city at night; every
+   section is a centred, bordered bone panel with a coloured band
+   across its top, like the front of a medicine box. Everything
+   sits on a central axis. The palette is lifted from the boxes
+   the artwork flips: cobalt, mustard, bone — red for warnings.
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --night: #070912;
+  --bone: #f1efe8;
+  --ink: #101114;
+  --cobalt: #1f4ed8;
+  --mustard: #f0c23a;
+  --rx: #d7322b;
+  --white: #ffffff;
+
+  /* on the night ground */
+  --fg: var(--bone);
+  --muted: rgb(241 239 232 / 0.62);
+  --faint: rgb(241 239 232 / 0.34);
+  --line: rgb(241 239 232 / 0.18);
+
+  --edge: clamp(10px, 1.1vw, 16px); /* the frame inset */
+  --panel-w: 1240px;
+  --pad: clamp(18px, 3vw, 56px);
+  --gap: clamp(10px, 1.2vw, 18px);
+  --header-h: 64px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.76, 0, 0.24, 1);
+
+  color-scheme: dark;
+}
+
+/* inside a carton */
+.panel,
+.on-bone {
+  --fg: var(--ink);
+  --muted: rgb(16 17 20 / 0.62);
+  --faint: rgb(16 17 20 / 0.36);
+  --line: rgb(16 17 20 / 0.14);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-night: var(--night);
+  --color-bone: var(--bone);
+  --color-ink: var(--ink);
+  --color-cobalt: var(--cobalt);
+  --color-mustard: var(--mustard);
+  --color-rx: var(--rx);
+
+  --font-sans: var(--font-public), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: var(--font-gotisch), Georgia, serif;
+
+  --breakpoint-xs: 30rem;
+}
+
+/* ── Base ─────────────────────────────────────────────────── */
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bone) transparent;
+  }
+
+  body {
+    background: var(--night);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: var(--mustard);
+    color: var(--ink);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--cobalt);
+    outline-offset: 3px;
+  }
+
+  img,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  button {
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+  }
+
+  input,
+  textarea,
+  select {
+    font: inherit;
+    color: inherit;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+.lenis [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* ── Type ─────────────────────────────────────────────────── */
+/* Headlines are Grenze Gotisch — a blackletter root, like the
+   "The" on the lockup, drawn for screens. Everything clinical is
+   Public Sans, the official-form face. */
+
+@utility t-hero {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(3rem, 9.5vw, 9.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.01em;
+}
+@utility t-xl {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2.5rem, 5.8vw, 5.8rem);
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+}
+@utility t-l {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.9rem, 3.2vw, 3.3rem);
+  line-height: 0.95;
+  letter-spacing: -0.005em;
+}
+@utility t-m {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.35rem, 1.9vw, 1.9rem);
+  line-height: 1;
+}
+@utility t-gothic {
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+/* small caps — band titles, buttons, card names */
+@utility t-caps {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+@utility t-label {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 10.5px;
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+@utility t-lede {
+  font-weight: 400;
+  font-size: clamp(1.05rem, 1.4vw, 1.3rem);
+  line-height: 1.45;
+  letter-spacing: -0.005em;
+}
+@utility t-body {
+  font-size: clamp(0.92rem, 1vw, 1rem);
+  line-height: 1.6;
+}
+@utility t-num {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+@utility pad-x {
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+}
+
+/* ── Components ───────────────────────────────────────────── */
+
+@layer components {
+  /* A carton: bordered bone panel, centred, with an inner die-line */
+  .panel {
+    position: relative;
+    width: min(var(--panel-w), 100%);
+    margin-inline: auto;
+    background: var(--bone);
+    color: var(--ink);
+    border: 1px solid var(--ink);
+    outline: 1px solid rgb(16 17 20 / 0.22);
+    outline-offset: -7px;
+  }
+
+  /* The band across the top of a carton */
+  .band {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    min-height: 40px;
+    padding: 0.6rem 1rem;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid var(--ink);
+  }
+  .band--cobalt {
+    background: var(--cobalt);
+    color: var(--bone);
+  }
+  .band--mustard {
+    background: var(--mustard);
+    color: var(--ink);
+  }
+  .band--rx {
+    background: var(--rx);
+    color: #fff;
+  }
+  .band--ink {
+    background: var(--ink);
+    color: var(--bone);
+  }
+  .band--bone {
+    background: var(--bone);
+    color: var(--ink);
+  }
+
+  /* A blister: the white cell a product sits in */
+  .blister {
+    position: relative;
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid rgb(16 17 20 / 0.16);
+    border-radius: 14px;
+    box-shadow:
+      inset 0 0 0 1px rgb(255 255 255 / 0.8),
+      inset 0 -10px 22px rgb(16 17 20 / 0.05);
+  }
+
+  /* Buttons — a pill stamped in ink or cobalt */
+  .btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    overflow: hidden;
+    min-height: 46px;
+    padding: 0.85rem 1.4rem;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--bone);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    line-height: 1;
+    transition:
+      transform 0.5s var(--ease-out),
+      background-color 0.4s var(--ease-out),
+      color 0.4s var(--ease-out);
+  }
+  .btn:hover,
+  .btn:focus-visible {
+    background: var(--cobalt);
+    color: #fff;
+    transform: translateY(-1px);
+  }
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+    transform: none;
+  }
+  .btn--bone {
+    background: var(--bone);
+    color: var(--ink);
+  }
+  .btn--bone:hover,
+  .btn--bone:focus-visible {
+    background: var(--mustard);
+    color: var(--ink);
+  }
+  .btn--ghost {
+    background: transparent;
+    color: var(--fg);
+    box-shadow: inset 0 0 0 1px currentColor;
+  }
+  .btn--ghost:hover,
+  .btn--ghost:focus-visible {
+    background: var(--fg);
+    color: var(--bone);
+    box-shadow: none;
+  }
+  .panel .btn--ghost:hover,
+  .panel .btn--ghost:focus-visible {
+    color: var(--bone);
+  }
+
+  /* Size cells — tablets in a strip */
+  .chip {
+    display: inline-grid;
+    place-items: center;
+    min-width: 3rem;
+    height: 3rem;
+    padding: 0 0.9rem;
+    border: 1px solid rgb(16 17 20 / 0.22);
+    border-radius: 999px;
+    background: var(--white);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    transition:
+      background-color 0.3s var(--ease-out),
+      color 0.3s var(--ease-out),
+      border-color 0.3s var(--ease-out);
+  }
+  .chip:hover:not(:disabled) {
+    border-color: var(--ink);
+  }
+  .chip[data-on="true"] {
+    background: var(--ink);
+    color: var(--bone);
+    border-color: var(--ink);
+  }
+  .chip:disabled {
+    cursor: not-allowed;
+    color: var(--faint);
+    text-decoration: line-through;
+    background: repeating-linear-gradient(135deg, #fff 0 6px, rgb(16 17 20 / 0.08) 6px 7px);
+  }
+
+  /* Filter pills, on bone */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    height: 34px;
+    padding: 0 0.9rem;
+    border-radius: 999px;
+    border: 1px solid rgb(16 17 20 / 0.22);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    transition:
+      background-color 0.3s var(--ease-out),
+      color 0.3s var(--ease-out),
+      border-color 0.3s var(--ease-out);
+  }
+  .pill:hover {
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+  .pill[data-on="true"] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--bone);
+  }
+
+  /* Form fields: a boxed line */
+  .field {
+    width: 100%;
+    background: var(--white);
+    border: 1px solid rgb(16 17 20 / 0.22);
+    padding: 0.85rem 1rem;
+    font-size: 15px;
+    color: var(--ink);
+    border-radius: 0;
+    transition: border-color 0.3s var(--ease-out);
+  }
+  .field::placeholder {
+    color: var(--faint);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--ink);
+  }
+  textarea.field {
+    resize: vertical;
+    min-height: 8rem;
+    line-height: 1.5;
+  }
+
+  /* Underline that draws from the centre outwards */
+  .u-draw {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s var(--ease-out);
+  }
+  .u-draw:hover,
+  .u-draw:focus-visible,
+  .group:hover .u-draw {
+    background-size: 100% 1px;
+  }
+
+  /* A centred rule with a cross in the middle */
+  .rule-x {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--faint);
+  }
+  .rule-x::before,
+  .rule-x::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+  }
+
+  /* Dashed perforation */
+  .perf {
+    border-top: 1px dashed rgb(16 17 20 / 0.3);
+  }
+
+  /* Product imagery always sits on white */
+  .sheet {
+    background: var(--white);
+  }
+}
+
+/* No scrollbar on rails */
+.no-bar {
+  scrollbar-width: none;
+}
+.no-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Intro failsafe: if scripts never run, the dark overlay still lifts. */
+.intro {
+  animation: intro-failsafe 0s linear 7s forwards;
+}
+@keyframes intro-failsafe {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* Things that must read over any ground (the frame, the header) */
+.inverts {
+  mix-blend-mode: difference;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
