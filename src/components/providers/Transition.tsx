@@ -101,8 +101,14 @@ export default function TransitionProvider({ children }: { children: React.React
 
 type TLinkProps = Omit<React.ComponentProps<typeof Link>, "href"> & { href: string };
 
-/** Link that closes the lid for internal routes. */
-export function TLink({ href, children, className, onClick, ...rest }: TLinkProps) {
+/**
+ * Link that closes the lid for internal routes.
+ *
+ * Prefetching is off: every link that scrolls into view would otherwise
+ * invoke the Cloudflare worker, twenty-odd times per page view. The page is
+ * fetched on click instead, while the lid is closing, so nothing is felt.
+ */
+export function TLink({ href, children, className, onClick, prefetch = false, ...rest }: TLinkProps) {
   const { navigate } = usePageTransition();
   if (isExternal(href)) {
     const mail = href.startsWith("mailto:") || href.startsWith("tel:");
@@ -115,6 +121,7 @@ export function TLink({ href, children, className, onClick, ...rest }: TLinkProp
   return (
     <Link
       href={href}
+      prefetch={prefetch}
       className={cn(className)}
       onClick={onClick}
       onNavigate={(e) => {

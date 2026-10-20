@@ -8,10 +8,18 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  // Keeping the bill down:
+  //  - static assets (images, video, JS, CSS) are served by Workers Static
+  //    Assets, which is free and not metered as requests;
+  //  - link prefetching is off in the app (see TLink), so a page view is one
+  //    worker invocation, not twenty;
+  //  - logs are sampled at 10% so observability never bills on its own.
   "observability": {
-    "enabled": true
+    "enabled": true,
+    "head_sampling_rate": 0.1
   },
   // Variables set in the Cloudflare dashboard survive deploys from the repo.
+  // Secrets (RESEND_API_KEY, the Shopify token) belong there, never in this file.
   "keep_vars": true
   // Once theheaveneffect.com.au's DNS is on Cloudflare, add:
   // "routes": [
